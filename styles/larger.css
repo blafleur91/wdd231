@@ -6,6 +6,8 @@
         margin: 0 auto;
     }
 
+    /* HEADER */
+
     header {
         grid-template-columns: 24px auto;
         border-bottom: solid 1px #ccc;
@@ -14,6 +16,8 @@
     .hamburger {
         display: none;
     }
+
+    /* NAVIGATION */
 
     .navigation {
         display: block;
@@ -27,6 +31,92 @@
 
     .navigation a {
         border: none;
+    }
+
+    /* MAIN */
+
+    /* main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    h1 {
+        grid-column: span 2;
+    }
+
+    .certificate {
+        grid-column: span 2;
+    }
+
+    .about {
+        display: grid;
+        grid-template-rows: auto 1fr;
+    }
+
+    .info {
+        height: 100%;
+    } */
+
+    /* I have been having troubles with making my page follow the format from the example, so I am trying a different approach ChatGPT recommended */
+    /* ok, so somehow the way they it had me do it worked, so I will be adding an explanation after this. */
+
+    /* the grid column stuff works exactly as you think. */
+    /* the .about and .photo stuff is turning its insides into a flexbox container, which then is put into a column format instead of side by side using flex-direction */
+
+    /* now for .info and .picture. by making them both have the same height value, or in this case flex, it causes the paragraphs size/background to fill out as long
+    as the photo. */
+
+    /* now for a fun infographic explaining it. */
+
+    /*                       MAIN
+              ┌─────────────────────────┐
+              │           H1            │
+              │        (2 columns)      │
+              ├─────────────────┬───────┤
+              │                 │       │
+              │      ABOUT      │ PHOTO │
+              │                 │       │
+              │  ┌───────────┐  │ ┌───┐ │
+              │  │    H2     │  │ │ H2│ │
+              │  ├───────────┤  │ ├───┤ │
+              │  │           │  │ │   │ │
+              │  │  .info    │  │ │pic│ │
+              │  │  flex: 1  │  │ │   │ │
+              │  │           │  │ │   │ │
+              │  └───────────┘  │ └───┘ │
+              │                 │       │
+              ├─────────────────┴───────┤
+              │       CERTIFICATE       │
+              └─────────────────────────┘
+
+                 ↑                  ↑
+             GRID handles       GRID handles
+             these columns      these columns
+
+                 ↑                  ↑
+            FLEXBOX handles    FLEXBOX handles
+            content inside     content inside */
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    h1 {
+        grid-column: span 2;
+    }
+
+    .about, .photo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info, .picture {
+        flex: 1;
+    }
+
+    .certificate {
+        grid-column: span 2;
     }
 
 }
