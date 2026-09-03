@@ -3,28 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WDD 231 Home Page</title>
+
+    <meta name="description" content="This is the homepage I am making for week 01 of WDD 231">
+    <meta name="author" content="Braxton LaFleur">
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 </head>
 <body>
     <header>
         <img src="images/home.svg" alt="Site Logo" width="512" height="512">
-        <span>Braxton's Site Title</span>
+        <span>Braxton LaFleur</span>
         <button id="ham-btn" class="hamburger"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current"><a href="#">News & Events</a></li>
-            <li><a href="#">Dedicated Temples</a></li>
-            <li><a href="#">Announced Temples</a></li>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
         </ul>
     </nav>
     <main>
-        <h1>News & Events</h1>
+        <h1>Home</h1>
+        <section>
+            <h2>About Me</h2>
+            <div></div>
+        </section>
+        <section>
+            <h2>Student Photo</h2>
+            <div>
+                <img src="" alt="">
+            </div>
+        </section>
+        <section>
+            <h2>Web Certificate Courses</h2>
+
+        </section>
     </main>
     <footer>
         <div class="social">
@@ -32,9 +52,11 @@
             <a href="" target="https://www.linkedin.com/"><img src="images/linkedin.svg" alt="LinkedIn" width="16" height="16"></a>
             <a href="" target="https://www.facebook.com/braxton.lafleur.9/"><img src="images/facebook.svg" alt="Facebook" width="16" height="16"></a>
         </div>
-        <p>copyright symbol and current year</p>
-        <p>Last Modified</p>
+        <p>
+            ©<span id="currentyear"></span> | Braxton LaFleur | Utah
+        </p>
+        <p id="lastModified"></p>
     </footer>
-    <script src="scripts/navigation.js"></script>
+    
 </body>
 </html>
