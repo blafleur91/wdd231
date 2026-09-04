@@ -119,4 +119,12 @@
         grid-column: span 2;
     }
 
+    .course-card {
+        grid-column: span 1;
+    }
+
+    /* FOOTER */
+
+
+
 }

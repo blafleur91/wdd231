@@ -24,7 +24,7 @@ header img {
 
 header span {
     font-size: 1.2rem;
-    color: #008b8b;
+    color: #003f3f;
 }
 
 /* HAMBURGER */
@@ -32,7 +32,7 @@ header span {
 .hamburger {
     background: none;
     border: none;
-    color: #008b8b;
+    color: #003f3f;
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -46,11 +46,15 @@ header span {
     content: "\00D7";
 }
 
+.name {
+    font-weight: bold;
+}
+
 /* NAVIGATION */
 
 .navigation {
     display: none;
-    background-color: #434343;
+    background-color: #ccc;
 }
 
 .navigation.show {
@@ -66,13 +70,21 @@ header span {
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: #008b8b;
+    color: #003f3f;
     text-decoration: none;
     border-bottom: solid 2px #000;
 }
 
 .navigation li.current {
-    background-color: #bbb;
+    background-color: #ddd;
+}
+
+.navigation li.current a {
+    color: #003f3f;
+}
+
+.navigation li.current a:hover {
+    background-color: #003f3f;
 }
 
 .navigation a:hover {
@@ -84,14 +96,14 @@ header span {
 h1 {
     margin-left: 10px;
     margin: 1rem 10px;
-    color: #008b8b;
+    color: #003f3f;
 }
 
 /*  MAIN */
 
 h2 {
-    color: #008b8b;
-    background-color: #434343;
+    color: #003f3f;
+    background-color: #ccc;
     text-align: center;
     /* justify-content: center; */
     margin:1rem 1rem 0 1rem;
@@ -122,8 +134,8 @@ h2 {
     border-radius: 6px;
     /* width: 44px;
     height: 44px; */
-    padding: 0.5rem 3rem 0.5rem 3rem;
-    color: #008b8b;
+    padding: 0.8rem 0 0.8rem 0;
+    color: #003f3f;
 }
 
 .courses {
@@ -135,9 +147,38 @@ h2 {
     
 }
 
+.courses .total {
+    display: flex;
+    grid-column: span 3;
+    justify-content: center;
+}
+
 .courses button:hover {
     cursor: pointer;
     background-color: #dc143c;
+}
+
+.course-card {
+    background-color: #eee;
+    border: #bbb 1px solid;
+    margin-top: 0.5rem;
+    grid-column: span 3;
+    text-align: center;
+    padding: 0.5rem auto;
+}
+
+.course-card h3 {
+    color: #003f3f;
+    margin: 0.5rem auto;
+}
+
+.course-card p {
+    margin: 0.4rem;
+}
+
+.school {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 /* FOOTER */
