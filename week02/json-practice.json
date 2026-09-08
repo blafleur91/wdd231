@@ -1,0 +1,33 @@
+{
+    "members": [
+        {
+            "Johnson": {
+            "date": 2025,
+            "family-numbers": 4,
+            "visited-by-bishopric": true,
+            "individuals": [
+                {
+                    "name": "Darrell",
+                    "gender": "male",
+                    "birthdate": "October 7, 1936"
+                },
+                {
+                    "name": "Judy",
+                    "gender": "female",
+                    "birthdate": "April 26, 1944"
+                },
+                {
+                    "name": "Mark",
+                    "gender": "male",
+                    "birthdate": "March 3, 1962"
+                },
+                {
+                    "name": "Dawn",
+                    "gender": "female",
+                    "birthdate": "March 30, 1965"
+                }
+            ]
+            }
+        }
+    ]
+}
