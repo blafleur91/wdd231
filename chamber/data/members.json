@@ -1,14 +1,24 @@
 {
     "members": [
         {
-            "name": "",
-            "tag-line": "",
+            "name": "John's car's",
+            "tag-line": "Get your used cars here!",
             "image": "",
-            "email": "",
+            "email": "JohnsCars@email.com",
+            "phone": "801-111-1111",
+            "url": "",
+            "address": "123 north 2000 east, Syracuse, UT 84075",
+            "membership-level": "1-member"
+        },
+        {
+            "name": "Local Pastries",
+            "tag-line": "The best pastries in town.",
+            "image": "",
+            "email": "pastries@email.com",
             "phone": "",
             "url": "",
-            "address": "",
-            "membership-level": ""
+            "address": "398 north 2000 east, Syracuse, UT 84075",
+            "membership-level": "2-silver"
         },
         {
             "name": "",
@@ -18,7 +28,7 @@
             "phone": "",
             "url": "",
             "address": "",
-            "membership-level": ""
+            "membership-level": "2-silver"
         },
         {
             "name": "",
@@ -28,7 +38,17 @@
             "phone": "",
             "url": "",
             "address": "",
-            "membership-level": ""
+            "membership-level": "3-gold"
+        },
+        {
+            "name": "discount clothes",
+            "tag-line": "Best place to find cheap clothes.",
+            "image": "",
+            "email": "discountclothes@email.com",
+            "phone": "",
+            "url": "",
+            "address": "",
+            "membership-level": "1-member"
         },
         {
             "name": "",
@@ -38,7 +58,7 @@
             "phone": "",
             "url": "",
             "address": "",
-            "membership-level": ""
+            "membership-level": "1-member"
         },
         {
             "name": "",
@@ -48,7 +68,7 @@
             "phone": "",
             "url": "",
             "address": "",
-            "membership-level": ""
+            "membership-level": "3-gold"
         },
         {
             "name": "",
@@ -58,7 +78,7 @@
             "phone": "",
             "url": "",
             "address": "",
-            "membership-level": ""
+            "membership-level": "2-silver"
         },
         {
             "name": "",
@@ -68,27 +88,7 @@
             "phone": "",
             "url": "",
             "address": "",
-            "membership-level": ""
-        },
-        {
-            "name": "",
-            "tag-line": "",
-            "image": "",
-            "email": "",
-            "phone": "",
-            "url": "",
-            "address": "",
-            "membership-level": ""
-        },
-        {
-            "name": "",
-            "tag-line": "",
-            "image": "",
-            "email": "",
-            "phone": "",
-            "url": "",
-            "address": "",
-            "membership-level": ""
+            "membership-level": "1-member"
         }
     ]
 }
