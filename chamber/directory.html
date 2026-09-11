@@ -7,53 +7,94 @@
     <meta name="description" content="This is the Directory for my Chamber of Commerce assignment. It will hold multiple fake businesses for a city of my choosing.">
     <meta name="author" content="Braxton LaFleur">
 
+    <link rel="icon" href="favicon.ico">
+
     <meta property="og:title" content="">
     <meta property="og:description" content="">
     <meta property="og:image" content="">
     <meta property="og:url" content="">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Roboto&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/directory.js" defer></script>
 
 </head>
 <body>
     <header>
-        <img src="images/" alt="Site Logo" width="512" height="512">
-        <span class="name"></span>
+        <img src="images/briefcase-fill.svg" alt="Site Logo" width="512" height="512">
+        <span class="name">Syracuse Chamber of Commerce</span>
         <button id="ham-btn" class="hamburger" aria-label="Navigation Menu"></button>
-    </header>
-    <nav id="nav-bar" class="navigation">
+        <nav id="nav-bar" class="navigation">
         <ul>
             <li><a href="#">Home</a></li>
             <li class="current"><a href="#">Directory</a></li>
             <li><a href="#">Join</a></li>
             <li><a href="#">Discover</a></li>
         </ul>
-    </nav>
+        </nav>
+    </header>
     <img src="" alt="">
     <main>
-        <h1>Directory</h1>
-        <span>
-            <button></button>
-            <button></button>
-        </span>
-        <section></section>
+            <h1>Directory</h1>
+            <span class="list-style">
+                <button id="grid-btn">Grid</button>
+                <button id="list-btn">List</button>
+            </span>
+        <section class="b-container grid">
+            <!-- <div class="b-card">
+                <h2>This is a test for css</h2>
+                <p class="tagline">This is a test for css</p>
+                <img src="images/profile.jpg" alt="test">
+                <p>This is a test for css</p>
+                <p>This is a test for css</p>
+                <p>This is a test for css</p>
+            </div>
+            <div class="b-card">
+                <h2>This is a test for css</h2>
+                <p class="tagline">This is a test for css</p>
+                <img src="images/profile.jpg" alt="test">
+                <p>This is a test for css</p>
+                <p>This is a test for css</p>
+                <p>This is a test for css</p>
+            </div>
+            <div class="b-card">
+                <h2>This is a test for css</h2>
+                <p class="tagline">This is a test for css</p>
+                <img src="images/profile.jpg" alt="test">
+                <p>This is a test for css</p>
+                <p>This is a test for css</p>
+                <p>This is a test for css</p>
+            </div>
+            <div class="b-card">
+                <h2>This is a test for css</h2>
+                <p class="tagline">This is a test for css</p>
+                <img src="images/profile.jpg" alt="test">
+                <p>This is a test for css</p>
+                <p>This is a test for css</p>
+                <p>This is a test for css</p>
+            </div> -->
+        </section>
     </main>
     <footer>
-        <div>
+        <div class="bus-info">
             <h4>Syracuse Chamber of Commerce</h4>
-            <p>address</p>
-            <p>city + zip</p>
-            <p>fake email</p>
-            <p>fake number</p>
+            <p>1111 west 2000 south</p>
+            <p>Syracuse UT, 84075</p>
+            <p>reallyreal@email.com</p>
+            <p>801-108-0801</p>
         </div>
         <div class="social">
-            <a href="#" target=""><img src="images/" alt="Youtube" width="16" height="16"></a>
-            <a href="#" target=""><img src="images/" alt="Twitter" width="16" height="16"></a>
-            <a href="#" target=""><img src="images/" alt="Instagram" width="16" height="16"></a>
+            <a href="#" target=""><img src="images/youtube.svg" alt="Youtube" width="16" height="16"></a>
+            <a href="#" target=""><img src="images/twitter.svg" alt="Twitter" width="16" height="16"></a>
+            <a href="#" target=""><img src="images/instagram.svg" alt="Instagram" width="16" height="16"></a>
         </div>
-        <div>
+        <div class="proj-info">
             <p>WDD231 Class Project</p>
             <p>Braxton LaFleur</p>
             <p>

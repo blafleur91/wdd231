@@ -1,94 +1,94 @@
 {
     "members": [
         {
-            "name": "John's car's",
-            "tag-line": "Get your used cars here!",
-            "image": "",
+            "name": "John's cars",
+            "tagline": "Get your used cars here!",
+            "image": "images/johns-car.webp",
             "email": "JohnsCars@email.com",
             "phone": "801-111-1111",
-            "url": "",
-            "address": "123 north 2000 east, Syracuse, UT 84075",
-            "membership-level": "1-member"
+            "url": "https://johnscars.com",
+            "address": "123 north 2000 east Syracuse UT 84075",
+            "membershiplevel": "1-member"
         },
         {
             "name": "Local Pastries",
-            "tag-line": "The best pastries in town.",
-            "image": "",
+            "tagline": "The best pastries in town.",
+            "image": "images/local-pastry.webp",
             "email": "pastries@email.com",
-            "phone": "",
-            "url": "",
-            "address": "398 north 2000 east, Syracuse, UT 84075",
-            "membership-level": "2-silver"
+            "phone": "801-101-2222",
+            "url": "https://localpastries.com",
+            "address": "398 north 2000 east Syracuse UT 84075",
+            "membershiplevel": "2-silver"
         },
         {
             "name": "Local Groceries",
-            "tag-line": "We have everything you need.",
-            "image": "",
-            "email": "",
-            "phone": "",
-            "url": "",
-            "address": "",
-            "membership-level": "2-silver"
+            "tagline": "We have everything you need.",
+            "image": "images/local-grocery.webp",
+            "email": "LGroceries@email.com",
+            "phone": "801-707-8008",
+            "url": "https://localgroceries.com",
+            "address": "123 west 1500 south Syracuse UT 84075",
+            "membershiplevel": "2-silver"
         },
         {
             "name": "Danny's Diner",
-            "tag-line": "No one dine's better then here!",
-            "image": "",
-            "email": "",
-            "phone": "",
-            "url": "",
-            "address": "",
-            "membership-level": "3-gold"
+            "tagline": "No one dine's better then here!",
+            "image": "images/danny-diner.webp",
+            "email": "DanielDiner@email.com",
+            "phone": "801-765-4321",
+            "url": "https://danielsdiner.com",
+            "address": "456 west 1500 south Syracuse UT 84075",
+            "membershiplevel": "3-gold"
         },
         {
             "name": "discount clothes",
-            "tag-line": "Best place to find cheap clothes.",
-            "image": "",
+            "tagline": "Best place to find cheap clothes.",
+            "image": "images/discount-clothes.webp",
             "email": "discountclothes@email.com",
-            "phone": "",
-            "url": "",
-            "address": "",
-            "membership-level": "1-member"
+            "phone": "801-900-8123",
+            "url": "https://discountclothes.com",
+            "address": "986 south 3000 west Syracuse UT 84075",
+            "membershiplevel": "1-member"
         },
         {
             "name": "Helping Hands",
-            "tag-line": "We help those in need.",
-            "image": "",
-            "email": "",
-            "phone": "",
-            "url": "",
-            "address": "",
-            "membership-level": "1-member"
+            "tagline": "We help those in need.",
+            "image": "images/helping-hands.webp",
+            "email": "HelpOthers@email.com",
+            "phone": "801-659-6956",
+            "url": "https://helpinghands.com",
+            "address": "2387 south 3000 west Syracuse UT 84075",
+            "membershiplevel": "1-member"
         },
         {
             "name": "ZoneEnd Comics",
-            "tag-line": "All your hobby's in one place.",
-            "image": "",
-            "email": "",
-            "phone": "",
-            "url": "",
-            "address": "",
-            "membership-level": "3-gold"
+            "tagline": "All your hobby's in one place.",
+            "image": "images/comic-store.webp",
+            "email": "ZoneComics@email.com",
+            "phone": "801-751-1101",
+            "url": "https://zoneendcomics.com",
+            "address": "1988 south 3000 west Syracuse UT 84075",
+            "membershiplevel": "3-gold"
         },
         {
             "name": "Zranf Bakery",
-            "tag-line": "Your one stop shop for all baking needs!",
-            "image": "",
-            "email": "",
-            "phone": "",
-            "url": "",
-            "address": "",
-            "membership-level": "2-silver"
+            "tagline": "Your one stop shop for all baking needs!",
+            "image": "images/bakery.webp",
+            "email": "ZBaker@email.com",
+            "phone": "801-666-6666",
+            "url": "https://zranfbakery.com",
+            "address": "1222 south 3000 west Syracuse UT 84075",
+            "membershiplevel": "2-silver"
         },
         {
             "name": "Mary's Petshop",
-            "tag-line": "We have any pet you could want.",
-            "image": "",
-            "email": "",
-            "phone": "",
-            "url": "",
-            "address": "",
-            "membership-level": "1-member"
+            "tagline": "We have any pet you could want.",
+            "image": "images/pet-store.webp",
+            "email": "marypets@email.com",
+            "phone": "801-777-7777",
+            "url": "https://marypetshop.com",
+            "address": "566 north 2000 east Syracuse UT 84075",
+            "membershiplevel": "1-member"
         }
     ]
 }

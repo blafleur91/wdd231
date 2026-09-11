@@ -1,0 +1,67 @@
+@media only screen and (min-width: 38rem) {
+
+    /* header, main, footer {
+        max-width: 1100px;
+        margin: 0 auto;
+    } */
+
+    /* HEADER */
+
+    header {
+        grid-template-columns: 24px auto 1fr;
+        /* border-bottom: solid 1px #ccc; */
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    /* nav */
+
+    .navigation {
+        display: block;
+        grid-column: span 1;
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navigation a {
+        border: none;
+    }
+
+    /* Main/b-cards */
+
+    .b-container.grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .b-container.list {
+        display: block;
+    }
+
+    /* footer */
+
+    footer {
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        column-gap: 0.5rem;
+        
+    }
+
+    .bus-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .proj-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
