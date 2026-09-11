@@ -67,3 +67,10 @@ function displayMembers(members) {
         businessContainer.appendChild(card);
     });
 }
+
+
+// FOR FUTURE REFERENCE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+// I was having to use chatgpt to get alot of this stuff working, and I did basically the majority of the non javascript work before I did Javascript.
+// If I were to do this again, I would finish the Javascript before doing anything CSS related so that way I could not have struggled so much with the 
+// CSS interactions with the Javascript, mainly by simply having two separate functions to create the two style's of lists.
