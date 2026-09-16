@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory</title>
+    <meta name="description" content="This is the Directory for my Chamber of Commerce assignment. It will hold multiple fake businesses for a city of my choosing.">
+    <meta name="author" content="Braxton LaFleur">
+
+    <link rel="icon" href="favicon.ico">
+
+    <meta property="og:title" content="WDD 231 Directory for Syracuse Chamber of Commerce">
+    <meta property="og:description" content="This is the Directory for my Chamber of Commerce assignment. It will hold multiple fake businesses for a city of my choosing.">
+    <meta property="og:image" content="https://blafleur91.github.io/wdd231/chamber/images/briefcase-fill.svg">
+    <meta property="og:url" content="https://blafleur91.github.io/wdd231/chamber/directory.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/directory.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <img src="images/briefcase-fill.svg" alt="Site Logo" width="512" height="512">
+        <span class="name">Syracuse Chamber of Commerce</span>
+        <button id="ham-btn" class="hamburger" aria-label="Navigation Menu"></button>
+        <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Discover</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- hero image needs to be input -->
+        <img src="" alt="" class="hero">
+        <!-- call to action link to join chamber of commerce -->
+        <!-- needs to appear over/on top of the hero image -->
+        <li><a href="#">Join Now!</a></li>
+
+        <!-- current events section -->
+        <section class="events">
+
+        </section>
+
+        <!-- this section shows the weather -->
+        <section class="weather">
+
+        </section>
+
+        <!-- this section shows off a few companies in the spotlight. -->
+        <section class="spotlight">
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="bus-info">
+            <p class="bold">Syracuse Chamber of Commerce</p>
+            <p>1111 west 2000 south</p>
+            <p>Syracuse UT, 84075</p>
+            <p>reallyreal@email.com</p>
+            <p>801-108-0801</p>
+        </div>
+        <div class="social">
+            <a href="#" target="https://www.youtube.com/"><img src="images/youtube.svg" alt="Youtube" width="16" height="16"></a>
+            <a href="#" target="https://x.com/"><img src="images/twitter.svg" alt="Twitter" width="16" height="16"></a>
+            <a href="#" target="https://www.instagram.com/"><img src="images/instagram.svg" alt="Instagram" width="16" height="16"></a>
+        </div>
+        <div class="proj-info">
+            <p>WDD231 Class Project</p>
+            <p>Braxton LaFleur</p>
+            <p>
+                ©<span id="currentyear"></span> Syracuse Chamber of Commerce
+            </p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

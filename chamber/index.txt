@@ -1,0 +1,7 @@
+list of things to do with the index.html stuff.
+
+1. integrate openweathermap api, specifically needing to show the current temperature, the current weather description
+    and the three day temperature forecast with proper labeling
+
+2. using the json data, must create a randomized spotlight of two members that are silver or higher whenever page is rendered.
+    It must show their name, logo, phone, address, website, and membership level.
