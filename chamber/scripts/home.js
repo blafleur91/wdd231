@@ -20,7 +20,13 @@ document.getElementById("lastModified").innerHTML = `Last Modification: ${docume
 
 // must change to correct latitude and longitude for syracuse utah
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&units=imperial&appid=938969b1ed614c343ce9bd2085ccea32';
+const wContainer = document.querySelector('.weather');
+const currentTemp = document.querySelector('#current-temp');
+const weatherDesc = document.querySelector('#weather-desc');
+
+
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=41.09&lon=-112.06&units=imperial&appid=938969b1ed614c343ce9bd2085ccea32';
+const forecast = 'https://api.openweathermap.org/data/2.5/forecast?lat=41.09&lon=-112.06&units=imperial&appid=938969b1ed614c343ce9bd2085ccea32';
 
 
 // api fetch should require zero changes.
@@ -31,6 +37,22 @@ async function apiFetch() {
             const data = await response.json();
             console.log(data);
             displayResults(data);
+            displayForecast(data);
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+async function apiFetchForecast() {
+    try {
+        const response = await fetch(forecast);
+        if (response.ok) {
+            const data = await response.json();
+            console.log(data);
+            displayForecast(data);
         } else {
             throw Error(await response.text());
         }
@@ -40,6 +62,7 @@ async function apiFetch() {
 }
 
 apiFetch();
+apiFetchForecast();
 // api fetch should require zero changes
 
 // displayResults needs to have added the three day temperature forecast and it needs to be properly labeled.
@@ -53,6 +76,10 @@ function displayResults(data) {
     // want in the console and it will give you the info you need to input to make it work.
     let desc = data.weather[0].description;
 
+}
+
+function displayForecast(data) {
+    
 }
 
 
