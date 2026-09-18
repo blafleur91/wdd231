@@ -188,8 +188,11 @@ header .name {
 }
 
 .hero-txt a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #35C9C9;
+    background-color: #3c3c3c;
+    padding: 0.5rem;
+    border-radius: 10px;
 }
 
 h2 {
