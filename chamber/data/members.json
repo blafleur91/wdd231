@@ -8,7 +8,7 @@
             "phone": "801-111-1111",
             "url": "https://johnscars.com",
             "address": "123 north 2000 east Syracuse UT 84075",
-            "membershiplevel": "1-member"
+            "membershiplevel": "Member"
         },
         {
             "name": "Local Pastries",
@@ -18,7 +18,7 @@
             "phone": "801-101-2222",
             "url": "https://localpastries.com",
             "address": "398 north 2000 east Syracuse UT 84075",
-            "membershiplevel": "2-silver"
+            "membershiplevel": "Silver"
         },
         {
             "name": "Local Groceries",
@@ -28,7 +28,7 @@
             "phone": "801-707-8008",
             "url": "https://localgroceries.com",
             "address": "123 west 1500 south Syracuse UT 84075",
-            "membershiplevel": "2-silver"
+            "membershiplevel": "Silver"
         },
         {
             "name": "Danny's Diner",
@@ -38,7 +38,7 @@
             "phone": "801-765-4321",
             "url": "https://danielsdiner.com",
             "address": "456 west 1500 south Syracuse UT 84075",
-            "membershiplevel": "3-gold"
+            "membershiplevel": "Gold"
         },
         {
             "name": "discount clothes",
@@ -48,7 +48,7 @@
             "phone": "801-900-8123",
             "url": "https://discountclothes.com",
             "address": "986 south 3000 west Syracuse UT 84075",
-            "membershiplevel": "1-member"
+            "membershiplevel": "Member"
         },
         {
             "name": "Helping Hands",
@@ -58,7 +58,7 @@
             "phone": "801-659-6956",
             "url": "https://helpinghands.com",
             "address": "2387 south 3000 west Syracuse UT 84075",
-            "membershiplevel": "1-member"
+            "membershiplevel": "Member"
         },
         {
             "name": "ZoneEnd Comics",
@@ -68,7 +68,7 @@
             "phone": "801-751-1101",
             "url": "https://zoneendcomics.com",
             "address": "1988 south 3000 west Syracuse UT 84075",
-            "membershiplevel": "3-gold"
+            "membershiplevel": "Gold"
         },
         {
             "name": "Zranf Bakery",
@@ -78,7 +78,7 @@
             "phone": "801-666-6666",
             "url": "https://zranfbakery.com",
             "address": "1222 south 3000 west Syracuse UT 84075",
-            "membershiplevel": "2-silver"
+            "membershiplevel": "Silver"
         },
         {
             "name": "Mary's Petshop",
@@ -88,7 +88,7 @@
             "phone": "801-777-7777",
             "url": "https://marypetshop.com",
             "address": "566 north 2000 east Syracuse UT 84075",
-            "membershiplevel": "1-member"
+            "membershiplevel": "Member"
         }
     ]
 }
