@@ -43,6 +43,28 @@
         display: block;
     }
 
+    /* MAIN-INDEX */
+
+    .home {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .home .weather {
+        max-height: 200px;
+        padding: 0rem;
+    }
+
+    .home .event {
+        margin: 1rem;
+    }
+
+    .spotlight {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1rem;
+    }
+
     /* footer */
 
     footer {

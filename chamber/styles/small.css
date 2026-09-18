@@ -99,6 +99,99 @@ header .name {
 
 /* main */
 
+.weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.temp {
+    margin: 0.5rem;
+    padding: 0.2rem;
+    align-content: center;
+    /* background-color: #eee; */
+}
+
+.forecast {
+    margin: 0.5rem;
+    align-content: center;
+    /* background-color: #eee; */
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.forecast h3 {
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+.forecast p {
+    margin-left: 0.5rem;
+}
+
+.event {
+    border: 1px solid #454545;
+    margin: 0.5rem;
+    border-radius: 10px;
+    background-color: #eee;
+}
+
+.event p {
+    padding: 0rem;
+    margin: 0.2rem;
+}
+
+.event h3 {
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+
+.events {
+    text-align: center;
+}
+
+.events h2 {
+    border-bottom: 1px solid #000;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.hero {
+    width: 90%;
+    height: 350px;
+    max-width: 700px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.6;
+}
+
+.hero-container {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.hero-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-txt a {
+    text-decoration: none;
+    color: #35C9C9;
+}
+
 h2 {
     margin-bottom: 0rem;
 }
@@ -122,6 +215,11 @@ h2 {
 }
 
 .b-card h2 {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.b-card h3 {
     grid-column: span 2;
     text-align: center;
 }

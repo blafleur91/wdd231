@@ -82,6 +82,7 @@ function displayResults(data) {
 
 function displayForecast(data) {
     const forecastContainer = document.createElement('div');
+    forecastContainer.classList.add('forecast')
 
     const day1 = data.list[8];
     const day2 = data.list[16];
@@ -142,18 +143,19 @@ function displaySpotlight(members) {
 
     selected.forEach(member => {
         const card = document.createElement("div");
-        card.classList.add("s-card");
+        card.classList.add("b-card");
         // What I am about to do is something I learned from ai. I double checked on a previous assignment I did this on
         // and it does the exact same thing as creating a variable for each element and then adding them onto the card element.
         // so I am going to do it this way as it just is more efficient and and immediately adds each element to the card element.
         
         card.innerHTML = `
-        <img src="${member.image}" alt="Image for ${member.name}" loading="lazy">
         <h3>${member.name}</h3>
+        <p class='tagline'><strong>Membership Level:</strong> ${member.membershiplevel}</p>
+        <img src="${member.image}" alt="Image for ${member.name}" loading="lazy">
         <p><strong>Address:</strong> ${member.address}</p>
         <p><strong>Phone:</strong> ${member.phone}</p>
         <p><strong>Website:</strong> ${member.url}</p>
-        <p><strong>Membership Level:</strong> ${member.membershiplevel}</p>
+        
         `;
 
         spotlightContainer.appendChild(card);
