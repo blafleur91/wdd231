@@ -104,6 +104,13 @@ function displayCourses(courseList) {
 
         coursesContainer.appendChild(card);
 
+        // below is an event listener getting added that will trigger a modal when the course is clicked on.
+        // #################################################################
+        card.addEventListener('click', () => {
+        displayCourseDetails(course);
+        });
+        // #################################################################
+
     });
 
     // explanation from chat GPT in my own words: reduce in its most simple terminology takes items from an array and turns them into one final value, ie takes 2+2+2 into 6
@@ -141,3 +148,34 @@ document.querySelector("#wdd").addEventListener("click", () => {
     displayCourses(wddCourses);
 });
 
+// **********************************************************************************************************************************************************
+
+// add a variable to reference the dialog to make a modal
+
+const courseDetails = document.querySelector('#course-details');
+
+// below is the example stuff for the dialog/modal things. I am copy and pasting because I don't really understand what it is that I am trying to do with it.
+
+function displayCourseDetails(course) {
+    // this clears the modal of all information/rests it.
+  courseDetails.innerHTML = '';
+
+//   this give the modal all the information needed from the div you just clicked on.
+  courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+
+//   because of the click event listener calling this function, it then calls this show modal to have the modal pop up.
+  courseDetails.showModal();
+  
+//   this adds a close to the x button on the modal.
+  closeModal.addEventListener("click", () => {
+    courseDetails.close();
+  });
+}

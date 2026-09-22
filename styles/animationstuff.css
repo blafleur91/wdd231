@@ -1,0 +1,100 @@
+/* Two notes: firstly, I do not particularly like using codepen as it is really confusing, so I am putting this here. */
+/* secondly, I do not think that the instructions actually gave enough information or examples to actualy know what the crap I was */
+/* supposed to be doing, so I am simply putting the examples for completed code here due to that lack of instruction. */
+
+#loader {
+    margin: 2rem;
+    width: 50px; /* width of the loader */
+    height: 50px; /* height of the loader */
+    border: 5px solid transparent; /* border width */
+    border-color: #999 transparent #999 transparent; /* border colors (4 - 2 transparent) */
+    border-radius: 50%; /* make it round */
+    animation: spin 1.5s linear infinite; /* spin animation with duration and continuous */
+    box-shadow: 0 0 1rem rgb(0 0 255 / 40%); /* blueish shadow effect on round div */
+}
+
+/* windows button plus period is how to get emojis */
+#loader::after {
+    content: '⚙️';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes spin {
+    100% {transform: rotate(360deg);} /* spin 360 degrees */
+}
+
+@keyframes pulse { /* pulse the gear emoji */
+    0%, 100% {transform: translate(-50%, -50%) scale(1);} /* scale to 1 */
+    50% {transform: translate(-50%, -50%) scale(1.25);} /* scale to 1.25 */
+}
+
+.loader-t {
+    position: relative;
+    transition: transform 1.5s linear;
+
+    margin: 2rem;
+    width: 50px; /* width of the loader */
+    height: 50px; /* height of the loader */
+    border: 5px solid transparent; /* border width */
+    border-color: #999 transparent #999 transparent; /* border colors (4 - 2 transparent) */
+    border-radius: 50%; /* make it round */
+    box-shadow: 0 0 1rem rgb(0 0 255 / 40%); /* blueish shadow effect on round div */
+}
+
+.loader-t:hover  {
+    /* this makes the container rotate when hovered over until the animation is finished */
+    /* chatGPT explanation: */
+    /* Why does this work?
+
+.loader-t:hover selects the loader while your mouse is over it.
+
+transform: rotate(360deg) tells it to rotate one full circle.
+
+The transition you already added makes that rotation take 1.5 seconds. */
+    transform: rotate(360deg);
+}
+
+.loader-t::after {
+    content: '⚙️';
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 1.5s ease-in-out;
+    /* animation: pulse 1.5s ease-in-out infinite; */
+}
+
+.loader-t:hover::after {
+    transform: translate(-50%, -50%) scale(2.75);
+}
+
+/* THIS IS THE SPECIFIC CODE USED IN THE EXAMPLE WITH NOTES
+this code assumes that you have added a class of loader-t to the div used above (THIS IS TALKING ABOUT THE INITIAL LOADER, BUT I MADE A SEPARATE ONE FOR IT)
+
+.loader-t {
+    the only thing that changed wwas using transition versus animation
+    transition: spin 1.5s linear infinite;
+}
+
+.loader-t::after {
+    the only thing that changed was using transition versus animation and the size and visibility at start
+    transform: translated(-50%, -50%) scale(0);
+    transition: transform 1.5s ease-in-out;
+    font-size: 2rem;
+}
+
+.loader-t:hover {
+    transform: rotate(360deg); rotate on hover
+}
+
+.loader-t:hover::after {
+    transform: translate(-50%, -50%) scale(1.5); scale on hover
+}
+
+
+
+*/
