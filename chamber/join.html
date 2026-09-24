@@ -42,16 +42,26 @@
     <main>
         <form method="get" action="thankyou.html">
             <!-- add first name with autocomplete -->
+             <label for="">First Name:<input type="text" name="fName" id="fName" required class="text" title=""></label>
+             <label for="">Last Name:<input type="text" name="lName"  id="lName" required class="text" title=""></label>
+             <label for="">Organization Title:<input type="text" name="orgTitle" id="orgTitle" required class="text" title=""></label>
+             <label for="">Email Address:<input type="email" name="email" id="email" required class="text" title=""></label>
+             <label for="">Phone Number: <input type="tel" name="phone" id="phone" required class="text" title=""></label>
+             <label for="">Business Name: <input type="text" name="bName" id="bName" required class="text" title=""></label>
+             <label for="">Membership Level: 
+                <select name="membership" id="membership" required>
+                    <option value="" disabled selected>Please Select a Membership Level ...</option>
+                    <option value="nonprofit">Non-Profit</option>
+                    <option value="bronze">Bronze</option>
+                    <option value="silver">Silver</option>
+                    <option value="gold">Gold</option>
+                </select>
+             </label>
+             <label for="">Your Business's Description:<textarea name="description" id="description" title=""></textarea></label>
+             <!-- need to figure out what a hidden type timestamp is and insert below -->
              <label for=""></label>
-             <label for=""></label>
-             <label for=""></label>
-             <label for=""></label>
-             <label for=""></label>
-             <label for=""></label>
-             <label for=""></label>
-             <label for=""></label><label for=""></label><label for=""></label>
-             <label for=""></label>
-             <label for=""></label>
+
+             <label for=""><input type="submit" value="Join Now!"></label>
         </form>
         
         <section>
