@@ -99,6 +99,181 @@ header .name {
 
 /* main */
 
+.results {
+    text-align: center;
+    background-color: #ddd;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.results p {
+    margin: 0.5rem;
+}
+
+.results h1 {
+    color: #35C9C9;
+    border-bottom: 2px solid #000;
+    background-color: #454545;
+    margin: 0;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+}
+
+form input {
+    border: 1px solid #000;
+    border-radius: 4px;
+    border-left: 4px solid #000;
+}
+
+form input:user-invalid {
+    border-left-color: #ff0000;
+}
+
+form input:user-valid {
+    border-left-color: #008000;
+}
+
+form select, form textarea {
+    border: 1px solid #000;
+}
+
+.bulleted {
+    display: list-item;
+    margin-left: 1.5rem;
+}
+
+dialog {
+    border: 1px solid #E05252;
+    /* background-color: #ddd; */
+    /* background-color: #ddd; */
+}
+
+dialog h3 {
+    /* color: #35C9C9; */
+    font-size: 1.25rem;
+    /* background-color: #454545; */
+    padding: 0.5rem;
+    border-bottom: 1px dotted #000;
+}
+
+dialog button {
+    padding: 0.7rem 1rem;
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    border-radius: 0.25rem;
+}
+
+.membershipCards button:hover {
+    cursor: pointer;
+}
+
+.membershipCards p {
+    font-size: 1.25rem;
+}
+
+.membershipCards h2 {
+    font-size: 2rem;
+}
+
+.mCard {
+    text-align: center;
+    background-color: #ddd;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px dotted #35C9C9;
+    border-radius: 8px 32px;
+}
+
+.mCard button {
+    padding: 0.5rem;
+    
+}
+
+@keyframes cardPop {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.mCard:nth-child(2) {
+    animation: cardPop 2s ease-in-out;
+}
+
+.mCard:nth-child(3) {
+    animation: cardPop 2s ease-in-out 0.2s;
+}
+
+.mCard:nth-child(4) {
+    animation: cardPop 2s ease-in-out 0.4s;
+}
+
+.mCard:nth-child(5) {
+    animation: cardPop 2s ease-in-out 0.6s;
+}
+
+.memberModal button {
+    border: 1px solid #000;
+}
+
+.memberModal button:hover {
+    cursor: pointer;
+    background-color: #bbb;
+}
+
+
+.join {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.join h1, .join h2 {
+    color: #E05252;
+}
+
+.application {
+    /* display: flex; */
+    /* flex-direction: column; */
+    font-size: 1.25rem;
+    /* justify-self: center; */
+}
+
+.application button {
+    padding: 0.5rem;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    border: 1px solid #000;
+    background-color: #454545;
+    color: #35C9C9;
+}
+
+.application button:hover {
+    cursor: pointer;
+}
+
+.application input, .application textarea, .application select {
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+    width: 100%;
+}
+
+.application textarea {
+    padding: 2rem;
+}
+
 .weather {
     display: grid;
     grid-template-columns: 1fr 1fr;

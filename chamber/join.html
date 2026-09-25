@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <meta name="description" content="This is the Homepage for my Chamber of Commerce assignment. It will contain a hero img, upcoming events, a brief weather forecast, and a company spotlight.">
+    <title>Join</title>
+    <meta name="description" content="This is the join page for my Chamber of Commerce assignment. It will contain a form that users can fill out to join the Chamber of Commerce.">
     <meta name="author" content="Braxton LaFleur">
 
     <link rel="icon" href="favicon.ico">
 
-    <meta property="og:title" content="WDD 231 Homepage for Syracuse Chamber of Commerce">
-    <meta property="og:description" content="This is the Homepage for my Chamber of Commerce assignment. It will contain a hero img, upcoming events, a brief weather forecast, and a company spotlight.">
+    <meta property="og:title" content="WDD 231 join page for Syracuse Chamber of Commerce">
+    <meta property="og:description" content="This is the join page for my Chamber of Commerce assignment. It will contain a form that users can fill out to join the Chamber of Commerce.">
     <meta property="og:image" content="https://blafleur91.github.io/wdd231/chamber/images/briefcase-fill.svg">
-    <meta property="og:url" content="https://blafleur91.github.io/wdd231/chamber/index.html">
+    <meta property="og:url" content="https://blafleur91.github.io/wdd231/chamber/join.html">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
 
-    <script src="scripts/home.js" defer></script>
+    <script src="scripts/join.js" defer></script>
 
 </head>
 <body>
@@ -32,41 +32,65 @@
         <button id="ham-btn" class="hamburger" aria-label="Navigation Menu"></button>
         <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="directory.html">Directory</a></li>
-            <li><a href="join.html">Join</a></li>
+            <li class="current"><a href="join.html">Join</a></li>
             <li><a href="#">Discover</a></li>
         </ul>
         </nav>
     </header>
     <main>
-        <form method="get" action="thankyou.html">
-            <!-- add first name with autocomplete -->
-             <label for="">First Name:<input type="text" name="fName" id="fName" required class="text" title=""></label>
-             <label for="">Last Name:<input type="text" name="lName"  id="lName" required class="text" title=""></label>
-             <label for="">Organization Title:<input type="text" name="orgTitle" id="orgTitle" required class="text" title=""></label>
-             <label for="">Email Address:<input type="email" name="email" id="email" required class="text" title=""></label>
-             <label for="">Phone Number: <input type="tel" name="phone" id="phone" required class="text" title=""></label>
-             <label for="">Business Name: <input type="text" name="bName" id="bName" required class="text" title=""></label>
-             <label for="">Membership Level: 
-                <select name="membership" id="membership" required>
-                    <option value="" disabled selected>Please Select a Membership Level ...</option>
-                    <option value="nonprofit">Non-Profit</option>
-                    <option value="bronze">Bronze</option>
-                    <option value="silver">Silver</option>
-                    <option value="gold">Gold</option>
-                </select>
-             </label>
-             <label for="">Your Business's Description:<textarea name="description" id="description" title=""></textarea></label>
-             <!-- need to figure out what a hidden type timestamp is and insert below -->
-             <label for=""></label>
-
-             <label for=""><input type="submit" value="Join Now!"></label>
-        </form>
-        
-        <section>
-            <!-- four sections that are cards for the memberships that are modals that show all the benefits for joining them. -->
-        </section>
+        <div class="join">
+            <div class="application-form">
+                <h1>Membership Application Form</h1>
+                <form method="get" action="thankyou.html" class="application">
+                    <!-- add first name with autocomplete -->
+                     <label for="fName">First Name:<input type="text" name="fName" id="fName" required class="text" title="Enter Your First Name" autocomplete="given-name"></label>
+                     <label for="lName">Last Name:<input type="text" name="lName"  id="lName" required class="text" title="Enter Your Last Name" autocomplete="family-name"></label>
+                     <label for="orgTitle">Organization Title:<input type="text" name="orgTitle" id="orgTitle" class="text" title="Enter Your Organization Title" 
+                        autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}"></label>
+                     <label for="email">Email Address:<input type="email" name="email" id="email" required class="text" title="Enter Your Email Address" autocomplete="email"
+                        placeholder="name@example.com"></label>
+                     <label for="phone">Mobile Phone Number: <input type="tel" name="phone" id="phone" required class="text" title="Enter Your Phone Number" autocomplete="tel"></label>
+                     <label for="bName">Business Name: <input type="text" name="bName" id="bName" required class="text" title="Enter Your Business's Name" autocomplete="organization"></label>
+                     <label for="membership">Membership Level:
+                        <select name="membership" id="membership">
+                            <option value="" disabled selected>Please Select a Membership Level ...</option>
+                            <option value="np">Non-Profit</option>
+                            <option value="bronze">Bronze</option>
+                            <option value="silver">Silver</option>
+                            <option value="gold">Gold</option>
+                        </select>
+                     </label>
+                     <label for="description">Your Business's Description:<textarea name="description" id="description" title="Please Enter A Description of Your business"></textarea></label>
+                     <!-- need to figure out what a hidden type timestamp is and insert below -->
+                     <input type="hidden" name="timestamp" id="timestamp">
+                     <label for="submit"><button type="submit" id="submit">Apply For Membership Now</button></label>
+                </form>
+            </div>
+            
+            <section class="membershipCards">
+                <h2>Membership Levels</h2>
+                <!-- four sections that are cards for the memberships that are modals that show all the benefits for joining them. -->
+                <div class="mCard">
+                    <p>Non Profit Membership Level</p>
+                    <button id="nonprofit">Learn More</button>
+                </div>
+                <div class="mCard">
+                    <p>Bronze Membership Level</p>
+                    <button id="bronze">Learn More</button>
+                </div>
+                <div class="mCard">
+                    <p>Silver Membership Level</p>
+                    <button id="silver">Learn More</button>
+                </div>
+                <div class="mCard">
+                    <p>Gold Membership Level</p>
+                    <button id="gold">Learn More</button>
+                </div>
+            </section>
+            <dialog id="membershipLevel" class="memberModal"></dialog>
+        </div>
 
     </main>
     <footer>

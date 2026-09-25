@@ -45,6 +45,22 @@
 
     /* MAIN-INDEX */
 
+    .join {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .application-form {
+        margin: 1rem;
+    }
+
+    .membershipCards {
+        margin-left: 1rem;
+        margin-top: 0.7rem;
+    }
+
+
     .home {
         display: grid;
         grid-template-columns: 1fr 1fr;
