@@ -1,0 +1,53 @@
+
+    /* use this yellow for hover */
+    /* background-color: #E0A82E; */
+
+
+h1, h2 {
+    text-align: center;
+    /* this will be the header and footer background color. */
+    /* background-color: #123B66; */
+    /* below is the card hexcode */
+    /* background-color: #7db9fa; */
+}
+
+h1 {
+    background-color: #123B66;
+    color: #FFF;
+}
+
+h2 {
+    background-color: #7db9fa;
+}
+
+h2:hover {
+    background-color: #E0A82E;
+}
+
+h1:hover {
+    background-color: #E0A82E;
+    color: #000;
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+/* .typography {
+    text-align: center;
+} */
