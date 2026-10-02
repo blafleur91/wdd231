@@ -222,13 +222,13 @@ dialog button {
     cursor: pointer;
 }
 
-.membershipCards p {
+/* .membershipCards p {
     font-size: 1.25rem;
 }
 
 .membershipCards h2 {
     font-size: 2rem;
-}
+} */
 
 .mCard {
     text-align: center;
