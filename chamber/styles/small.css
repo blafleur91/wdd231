@@ -289,6 +289,7 @@ dialog button {
     display: flex;
     flex-direction: column;
     justify-self: center;
+    margin: 0.5rem;
 }
 
 .join h1, .join h2 {
