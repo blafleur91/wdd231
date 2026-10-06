@@ -1,0 +1,244 @@
+{
+    "sets": [
+        {
+            "name": "Imperial Shuttle",
+            "setNumber": "7166",
+            "pieceCount": 238,
+            "releaseYear": 2001,
+            "originalPrice": 35.0,
+            "inflationAdjustedPrice": 64.0,
+            "boxArt": "https://images.brickset.com/sets/images/7166-1.jpg",
+            "description": "This set builds a Lambda-class Imperial Shuttle and includes the Imperial Shuttle Pilot, Emperor Palpatine, and two Royal Guards. The shuttle features folding wings and an opening cockpit for recreating scenes from Return of the Jedi."
+        },
+        {
+            "name": "Republic Gunship",
+            "setNumber": "7163",
+            "pieceCount": 686,
+            "releaseYear": 2002,
+            "originalPrice": 90.0,
+            "inflationAdjustedPrice": 160.0,
+            "boxArt": "https://images.brickset.com/sets/images/7163-1.jpg",
+            "description": "This Attack of the Clones-era Republic Gunship includes Jedi Knight, Clone Troopers, a Super Battle Droid, and a Droideka. The gunship has opening troop bays, movable wings, and weaponry for recreating the Battle of Geonosis."
+        },
+        {
+            "name": "AT-AT",
+            "setNumber": "4483",
+            "pieceCount": 1064,
+            "releaseYear": 2003,
+            "originalPrice": 100.0,
+            "inflationAdjustedPrice": 173.0,
+            "boxArt": "https://images.brickset.com/sets/images/4483-1.jpg",
+            "description": "This large Imperial AT-AT Walker includes an AT-AT Driver, Luke Skywalker, and two Snowtroopers. The walker has articulated legs, a rotating head, and an interior troop compartment for recreating the Battle of Hoth."
+        },
+        {
+            "name": "Millennium Falcon",
+            "setNumber": "4504",
+            "pieceCount": 985,
+            "releaseYear": 2004,
+            "originalPrice": 100.0,
+            "inflationAdjustedPrice": 167.0,
+            "boxArt": "https://images.brickset.com/sets/images/4504-1.jpg",
+            "description": "This Millennium Falcon is based on its appearance during the Hoth portion of The Empire Strikes Back. It includes Han Solo, Chewbacca, Princess Leia, C-3PO, and a Snowtrooper, along with a detailed interior, escape pod, E-Web cannon, and Dejarik table."
+        },
+        {
+            "name": "Clone Turbo Tank",
+            "setNumber": "7261",
+            "pieceCount": 801,
+            "releaseYear": 2005,
+            "originalPrice": 90.0,
+            "inflationAdjustedPrice": 146.0,
+            "boxArt": "https://images.brickset.com/sets/images/7261-1.jpg",
+            "description": "This large Republic HAVw A6 Juggernaut, or Clone Turbo Tank, is based on Revenge of the Sith. The set includes Mace Windu, Clone Troopers, Battle Droids, and a BARC Speeder, with a large rolling vehicle featuring multiple turrets and troop compartments."
+        },
+        {
+            "name": "Imperial Star Destroyer",
+            "setNumber": "6211",
+            "pieceCount": 1367,
+            "releaseYear": 2006,
+            "originalPrice": 99.99,
+            "inflationAdjustedPrice": 152.0,
+            "boxArt": "https://images.brickset.com/sets/images/6211-1.jpg",
+            "description": "This Imperial Star Destroyer includes Darth Vader, Grand Moff Tarkin, an Imperial Officer, Stormtroopers, a Royal Guard, and droids. The ship features an opening command bridge, interior sections, an escape pod, and a removable top section."
+        },
+        {
+            "name": "Clone Troopers Battle Pack",
+            "setNumber": "7655",
+            "pieceCount": 58,
+            "releaseYear": 2007,
+            "originalPrice": 9.99,
+            "inflationAdjustedPrice": 15.0,
+            "boxArt": "https://images.brickset.com/sets/images/7655-1.jpg",
+            "description": "This army-building battle pack includes four Clone Trooper minifigures: two standard Clone Troopers, a 327th Star Corps Trooper, and a Clone Shock Trooper. It also includes a two-seat speeder and a small blaster turret."
+        },
+        {
+            "name": "Republic Attack Gunship",
+            "setNumber": "7676",
+            "pieceCount": 1034,
+            "releaseYear": 2008,
+            "originalPrice": 119.99,
+            "inflationAdjustedPrice": 180.0,
+            "boxArt": "https://images.brickset.com/sets/images/7676-1.jpg",
+            "description": "This Clone Wars-era Republic Attack Gunship includes Obi-Wan Kenobi, Commander Cody, Plo Koon, Clone Troopers, Asajj Ventress, and a droid. The gunship has opening troop bays, movable wings, and space for a small speeder."
+        },
+        {
+            "name": "Republic Dropship with AT-OT",
+            "setNumber": "10195",
+            "pieceCount": 1758,
+            "releaseYear": 2009,
+            "originalPrice": 249.99,
+            "inflationAdjustedPrice": 362.0,
+            "boxArt": "https://images.brickset.com/sets/images/10195-1.jpg",
+            "description": "This large Clone Wars set combines a Republic Dropship with an AT-OT walker. It includes Clone Troopers and a Clone Pilot, and the dropship can carry and release the AT-OT using its lifting mechanism."
+        },
+        {
+            "name": "Slave I",
+            "setNumber": "8097",
+            "pieceCount": 573,
+            "releaseYear": 2010,
+            "originalPrice": 79.99,
+            "inflationAdjustedPrice": 116.0,
+            "boxArt": "https://images.brickset.com/sets/images/8097-1.jpg",
+            "description": "This version of Boba Fett's Slave I is based on The Empire Strikes Back. It includes Boba Fett, Han Solo, and Bossk, and features folding wings, a rotating cockpit, weapons, and a carbonite chamber."
+        },
+        {
+            "name": "Millennium Falcon",
+            "setNumber": "7965",
+            "pieceCount": 1254,
+            "releaseYear": 2011,
+            "originalPrice": 139.99,
+            "inflationAdjustedPrice": 193.0,
+            "boxArt": "https://images.brickset.com/sets/images/7965-1.jpg",
+            "description": "This minifigure-scale Millennium Falcon includes Han Solo, Luke Skywalker, Princess Leia, Chewbacca, Obi-Wan Kenobi, and Darth Vader. The ship includes a detailed cockpit, interior compartments, rotating gun turrets, an escape hatch, and a Dejarik table."
+        },
+        {
+            "name": "X-wing Starfighter",
+            "setNumber": "9493",
+            "pieceCount": 560,
+            "releaseYear": 2012,
+            "originalPrice": 59.99,
+            "inflationAdjustedPrice": 83.0,
+            "boxArt": "https://images.brickset.com/sets/images/9493-1.jpg",
+            "description": "This X-wing Starfighter includes Luke Skywalker, Jek Porkins, R2-D2, and R5-D8. The fighter has adjustable wings, a cockpit, spring-loaded shooters, and a removable astromech droid section."
+        },
+        {
+            "name": "Ewok Village",
+            "setNumber": "10236",
+            "pieceCount": 1990,
+            "releaseYear": 2013,
+            "originalPrice": 249.99,
+            "inflationAdjustedPrice": 340.0,
+            "boxArt": "https://images.brickset.com/sets/images/10236-1.jpg",
+            "description": "This large Endor playset recreates the Ewok village from Return of the Jedi. It includes 17 minifigures and features tree houses, rope bridges, a catapult, a trapdoor, an Ewok kitchen, a throne, a glider, and a speeder bike."
+        },
+        {
+            "name": "Mos Eisley Cantina",
+            "setNumber": "75052",
+            "pieceCount": 616,
+            "releaseYear": 2014,
+            "originalPrice": 69.99,
+            "inflationAdjustedPrice": 97.0,
+            "boxArt": "https://images.brickset.com/sets/images/75052-1.jpg",
+            "description": "This set recreates the Mos Eisley Cantina from A New Hope and includes Han Solo, Luke Skywalker, Obi-Wan Kenobi, Greedo, a Sandtrooper, and Bith musicians. It also includes a Dewback, a landspeeder, a moisture vaporator, and the cantina building."
+        },
+        {
+            "name": "Slave I",
+            "setNumber": "75060",
+            "pieceCount": 1996,
+            "releaseYear": 2015,
+            "originalPrice": 199.99,
+            "inflationAdjustedPrice": 260.0,
+            "boxArt": "https://images.brickset.com/sets/images/75060-1.jpg",
+            "description": "This Ultimate Collector Series version of Boba Fett's Slave I is based primarily on The Empire Strikes Back. It includes Boba Fett, Han Solo, a Bespin Guard, and a Stormtrooper, along with a highly detailed ship, display stand, rotating cockpit, folding wings, and weapons."
+        },
+        {
+            "name": "AT-ST Walker",
+            "setNumber": "75153",
+            "pieceCount": 449,
+            "releaseYear": 2016,
+            "originalPrice": 39.99,
+            "inflationAdjustedPrice": 53.0,
+            "boxArt": "https://images.brickset.com/sets/images/75153-1.jpg",
+            "description": "This Rogue One AT-ST Walker includes Baze Malbus, an AT-ST Driver, and a Rebel Trooper. The walker has movable legs, an adjustable head, rotating weapons, and a cockpit that opens to seat a minifigure."
+        },
+        {
+            "name": "First Order Star Destroyer",
+            "setNumber": "75190",
+            "pieceCount": 1416,
+            "releaseYear": 2017,
+            "originalPrice": 159.99,
+            "inflationAdjustedPrice": 208.0,
+            "boxArt": "https://images.brickset.com/sets/images/75190-1.jpg",
+            "description": "This First Order Star Destroyer includes Supreme Leader Snoke, a First Order Officer, Stormtroopers, a Shuttle Pilot, and the BB-9E droid. The ship features an opening interior with a bridge, control room, hangar, and other play areas."
+        },
+        {
+            "name": "X-wing Starfighter",
+            "setNumber": "75218",
+            "pieceCount": 731,
+            "releaseYear": 2018,
+            "originalPrice": 79.99,
+            "inflationAdjustedPrice": 102.0,
+            "boxArt": "https://images.brickset.com/sets/images/75218-1.jpg",
+            "description": "This X-wing Starfighter includes Luke Skywalker, Biggs Darklighter, R2-D2, and R2-Q2. The set features adjustable S-foils, spring-loaded shooters, an opening cockpit, and space for an astromech droid."
+        },
+        {
+            "name": "Ultimate Collector's Millennium Falcon",
+            "setNumber": "10179",
+            "pieceCount": 5197,
+            "releaseYear": 2007,
+            "originalPrice": 499.99,
+            "inflationAdjustedPrice": 760.0,
+            "boxArt": "https://images.brickset.com/sets/images/10179-1.jpg",
+            "description": "This original Ultimate Collector Series Millennium Falcon is a massive display model with more than 5,000 pieces. It includes Han Solo, Chewbacca, Luke Skywalker, Princess Leia, and Obi-Wan Kenobi, with extensive exterior detailing, a detailed cockpit, interior sections, rotating laser cannons, and an informational display plaque."
+        },
+        {
+            "name": "R2-D2",
+            "setNumber": "10225",
+            "pieceCount": 2127,
+            "releaseYear": 2012,
+            "originalPrice": 179.99,
+            "inflationAdjustedPrice": 248.0,
+            "boxArt": "https://images.brickset.com/sets/images/10225-1.jpg",
+            "description": "This Ultimate Collector Series set builds a large display-scale R2-D2 model. It includes an information plaque and display stand, with a rotating head, retractable third leg, extendable front panels, and other recognizable astromech details."
+        },
+        {
+            "name": "The Battle of Endor",
+            "setNumber": "8038",
+            "pieceCount": 890,
+            "releaseYear": 2009,
+            "originalPrice": 99.99,
+            "inflationAdjustedPrice": 145.0,
+            "boxArt": "https://images.brickset.com/sets/images/8038-1.jpg",
+            "description": "This large Return of the Jedi playset recreates the Battle of Endor and includes 12 minifigures, including Han Solo, Princess Leia, Chewbacca, Rebel and Imperial troops, Ewoks, and R2-D2. It includes an AT-ST, speeder bikes, an Ewok glider, a bunker, a shield generator, and an Ewok catapult."
+        },
+        {
+            "name": "Imperial Shuttle",
+            "setNumber": "10212",
+            "pieceCount": 2503,
+            "releaseYear": 2010,
+            "originalPrice": 259.99,
+            "inflationAdjustedPrice": 369.0,
+            "boxArt": "https://images.brickset.com/sets/images/10212-1.jpg",
+            "description": "This Ultimate Collector Series Imperial Shuttle is a large display model based on the Lambda-class shuttle from Return of the Jedi. It includes Darth Vader, Luke Skywalker, Stormtroopers, and an Imperial Officer, with folding wings, a detailed cockpit, landing gear, and an opening rear section."
+        },
+        {
+            "name": "Mos Eisley Cantina",
+            "setNumber": "4501",
+            "pieceCount": 193,
+            "releaseYear": 2004,
+            "originalPrice": 30.0,
+            "inflationAdjustedPrice": 52.0,
+            "boxArt": "https://images.brickset.com/sets/images/4501-1.jpg",
+            "description": "This early LEGO Star Wars version of the Mos Eisley Cantina includes Han Solo, Luke Skywalker, Obi-Wan Kenobi, Greedo, and a Sandtrooper. The set also includes a small cantina building, a Dewback, and Luke's X-34 landspeeder."
+        },
+        {
+            "name": "Millennium Falcon",
+            "setNumber": "75192",
+            "pieceCount": 7541,
+            "releaseYear": 2017,
+            "originalPrice": 849.99,
+            "inflationAdjustedPrice": 1125.0,
+            "boxArt": "https://images.brickset.com/sets/images/75192-1.jpg",
+            "description": "This Ultimate Collector Series Millennium Falcon is an enormous display model with 7,541 pieces and eight minifigures, including Han Solo, Chewbacca, Princess Leia, C-3PO, Rey, Finn, and a BB-8 droid. It features removable hull panels, a detailed interior, a four-minifigure cockpit, rotating quad laser cannons, interchangeable sensor dishes, landing legs, and multiple interior compartments."
+        }
+    ]
+}
