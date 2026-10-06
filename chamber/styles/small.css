@@ -304,6 +304,7 @@ dialog button {
     /* flex-direction: column; */
     font-size: 1.25rem;
     /* justify-self: center; */
+    margin: 0.5rem;
 }
 
 .application button {
@@ -325,8 +326,8 @@ dialog button {
     margin-bottom: 1rem;
     margin-top: 0.2rem;
     width: 100%;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    /* margin-left: 0.5rem;
+    margin-right: 0.5rem; */
 }
 
 .application textarea {
