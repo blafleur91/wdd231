@@ -8,3 +8,8 @@ if (navbutton && navlinks) {
     navlinks.classList.toggle('show');
     });
 }
+
+const today = new Date();
+currentyear.innerHTML = `${today.getFullYear()}`;
+
+document.getElementById("lastModified").innerHTML = document.lastModified;
