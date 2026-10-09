@@ -39,19 +39,31 @@
     </nav>
     </header>
     <main>
+        <img src="images/lego-star-wars-database-banner-img.webp" alt="Star Wars logo Lego Set" class="banner">
         <h1>Homepage</h1>
-        <img src="images/lego-star-wars-database-banner-img.webp" alt="Star Wars logo Lego Set">
-        <p></p>
-        <div class="card-container"></div>
+        <div id="welcome" class="welcome"></div>
+        <p>Hello and Welcome to this website! This website's purpose is to document Lego Star Wars Sets that have been released, as well as a variety of information about them.
+            This is not a site for selling these sets. If you find that a set is missing, there is a form you can fill out on the Submit a Set page to let us know what we missed.
+            You will be able to see some examples of how the sets are presented in the database on this page. If you click on them you will be able to see more information about them.
+        </p>
+        <div class="card-container" id="card-container"></div>
+
+        <dialog id="setModal" class="setModal"></dialog>
+
     </main>
     <footer>
+        <div class="vid-link">
+            <a href="#">filler content</a>
+        </div>
         <div class="social">
             <a href="https://github.com/blafleur91" target="https://github.com/blafleur91"><img src="images/github.svg" alt="Github" width="16" height="16"></a>
         </div>
-        <p>
-            ©<span id="currentyear"></span> | Braxton LaFleur | Utah
-        </p>
-        <p id="lastModified"></p>
+        <div>
+            <p>
+                ©<span id="currentyear"></span> | Braxton LaFleur | Utah
+            </p>
+            <p id="lastModified"></p>
+        </div>
     </footer>
     
 </body>

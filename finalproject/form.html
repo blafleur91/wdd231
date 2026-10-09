@@ -40,22 +40,29 @@
     </header>
     <main>
         <h1>Missing Set Submission Form</h1>
-        <form action="get" action="thankyou.html">
-            <label for="">Set Name:<input type="text"></label>
-            <label for="">Set Number:<input type="number"></label>
-            <label for="">Set Piece Count<input type="number"></label>
-            <label for="">Set Release Year:<input type="number"></label>
-            <label for=""><button type="submit"></button></label>
-        </form>
+        <div class="join">
+            <form method="get" action="thankyou.html" class="submit">
+                <label for="sName">Set Name:<input type="text" name="sName" id="sName" required title="Enter the Set's Name"></label>
+                <label for="sNumber">Set Number:<input type="number" name="sNumber" id="sNumber" required title="Enter the Set's Number"></label>
+                <label for="pCount">Set Piece Count<input type="number" name="pCount" id="pCount" required title="Enter the Set's Piece Count"></label>
+                <label for="year">Set Release Year:<input type="number" name="year" id="year" required title="Enter the Set's Release Year"></label>
+                <label for="submit"><button type="submit">Add Missing Set Now</button></label>
+            </form>
+        </div>
     </main>
     <footer>
+        <div class="vid-link">
+            <a href="#">filler content</a>
+        </div>
         <div class="social">
             <a href="https://github.com/blafleur91" target="https://github.com/blafleur91"><img src="images/github.svg" alt="Github" width="16" height="16"></a>
         </div>
-        <p>
-            ©<span id="currentyear"></span> | Braxton LaFleur | Utah
-        </p>
-        <p id="lastModified"></p>
+        <div>
+            <p>
+                ©<span id="currentyear"></span> | Braxton LaFleur | Utah
+            </p>
+            <p id="lastModified"></p>
+        </div>
     </footer>
     
 </body>

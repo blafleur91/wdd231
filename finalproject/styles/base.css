@@ -80,20 +80,211 @@ header .name {
 
 .navigation li.current {
     /* background-color: #454545; */
-    /* text-decoration: underline #35C9C9; */
+    text-decoration: underline #fff;
     
 }
 
-.navigation li.current a {
-    /* color: #35C9C9; */
-}
 
 .navigation li.current a:hover {
     color: #000;
     background-color: #E0A82E;
+    text-decoration: underline #000;
 }
 
 .navigation a:hover {
     color: #000;
     background-color: #E0A82E;
 }
+
+/* MAIN */
+
+.results {
+    /* text-align: center; */
+    margin: 0.5rem;
+    /* padding: 0.5rem; */
+}
+
+.welcome {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.join {
+    margin: 0 auto;
+}
+
+.submit {
+    /* display: flex; */
+    /* flex-direction: column; */
+    font-size: 1.25rem;
+    /* justify-self: center; */
+    margin: 0.5rem;
+}
+
+.submit button {
+    padding: 0.5rem;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    border: 1px solid #000;
+    background-color: #7db9fa;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.submit button:hover {
+    cursor: pointer;
+}
+
+.submit input {
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    /* margin-left: 0.5rem;
+    margin-right: 0.5rem; */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+.banner {
+    width: 90%;
+    height: 400px;
+    max-width: 900px;
+    /* object-fit: cover; */
+    display: block;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+h1 {
+    background-color: #7db9fa;
+    text-align: center;
+    margin-bottom: 0rem;
+}
+
+main p {
+    /* background-color: #ddd; */
+    margin: 1rem;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: #7db9fa;
+    border: solid 1px #000;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: 0.5rem;
+    max-width: 350px;
+    padding-left: 1rem;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card img {
+    width: 200px;
+    height: auto;
+    border: solid 2px #000;
+}
+
+.card h2 {
+    border-bottom: dotted 2px #000;
+}
+
+/* MODAL */
+
+dialog {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 1rem;
+    background-color: #7db9fa;
+    position: relative;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+}
+
+
+
+dialog button {
+    width: 44px;
+    height: 44px;
+    font-size: 2rem;
+    background-color: #123B66;
+    color: #E0A82E;
+    border: solid 2px #000;
+    position: absolute;
+    top: 2.7rem;
+    right: 1rem;
+}
+
+dialog img {
+    width: 150px;
+    height: auto;
+}
+
+/* footer */
+
+footer {
+    background-color: #123B66;
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    color: #fff;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: #fff solid 1px;
+    border-radius: 15px;
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+}
+
+.social a:hover {
+    background-color: #fff;
+}
+
+.vid-link a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+    }

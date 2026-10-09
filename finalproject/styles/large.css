@@ -1,4 +1,4 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 42rem) {
 
     /* header, main, footer {
         max-width: 1100px;
@@ -30,5 +30,100 @@
 
     .navigation a {
         border: none;
+    }
+
+    /* MAIN */
+
+    .results {
+        text-align: center;
+    }
+
+
+    .join {
+        max-width: 16rem;
+    }
+
+    .join button {
+        margin-left: 2rem;
+    }
+
+    dialog button {
+        top: 1.2rem;
+    }
+
+    dialog img {
+        width: 300px;
+        height: auto;
+        padding-bottom: 0rem;
+        margin-bottom: 0rem;
+        border: solid 2px #000;
+    }
+
+    .modal-details {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        gap: 0rem;
+        align-items: start;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-template-areas: 
+        'name name'
+        'image year'
+        'image count'
+        'image o-price';
+        max-width: 500px;
+    }
+
+    .card h2 {
+        grid-area: name;
+    }
+
+    .card img {
+        width: 300px;
+        height: 200px;
+        grid-area: image;
+        /* margin-bottom: 0.5rem; */
+    }
+
+    .year {
+        grid-area: year;
+        text-align: left;
+    }
+
+    .count {
+        grid-area: count;
+        text-align: left;
+    }
+
+    .o-price {
+        grid-area: o-price;
+        text-align: left;
+    }
+
+    /* FOOTER */
+
+    footer {
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        column-gap: 0.5rem;
+        
+    }
+
+    footer p {
+        display: block;
+        justify-content: center;
+        margin: 1rem;
+    }
+
+    .vid-link a {
+        margin-top: 2rem;
     }
 }
