@@ -204,6 +204,7 @@ main p {
     width: 200px;
     height: auto;
     border: solid 2px #000;
+    margin-bottom: 1rem;
 }
 
 .card h2 {
