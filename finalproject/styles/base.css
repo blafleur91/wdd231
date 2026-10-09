@@ -193,7 +193,7 @@ main p {
     text-align: center;
     margin: 0.5rem;
     max-width: 350px;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
 }
 
 .card:hover {
@@ -204,7 +204,7 @@ main p {
     width: 200px;
     height: auto;
     border: solid 2px #000;
-    margin-bottom: 1rem;
+    margin: 0.5rem;
 }
 
 .card h2 {
