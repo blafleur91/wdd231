@@ -98,6 +98,10 @@ header .name {
 
 /* MAIN */
 
+.setModal button:hover {
+    cursor: pointer;
+}
+
 .results {
     /* text-align: center; */
     margin: 0.5rem;
