@@ -11,7 +11,7 @@ async function getData() {
 
             shuffledSets.sort(() => Math.random() - 0.5);
 
-            const shuffledData = shuffledSets.slice(0, 3);
+            const shuffledData = shuffledSets.slice(0, 2);
 
             makeCards(shuffledData);
         } else {

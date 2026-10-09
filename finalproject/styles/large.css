@@ -38,6 +38,15 @@
         text-align: center;
     }
 
+    .home-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .home-container p {
+        max-width: 500px;
+        margin-left: 2rem;
+    }
 
     .join {
         max-width: 16rem;
