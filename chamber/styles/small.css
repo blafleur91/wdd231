@@ -284,6 +284,19 @@ dialog button {
     background-color: #bbb;
 }
 
+.welcome {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.d-card button{
+    padding: 0.5rem;
+    width: 50%;
+    margin: 0 auto;
+    grid-area: "button";
+    margin-bottom: 0.5rem;
+}
+
 
 .join {
     display: flex;

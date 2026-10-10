@@ -28,6 +28,7 @@ function displayItems(places) {
         const photo = document.createElement('img');
         photo.src = `images/${place.photo_url}`;
         photo.alt = place.name;
+        photo.loading = 'lazy';
         card.appendChild(photo);
         // creates the title element
         const title = document.createElement('h2');
@@ -41,6 +42,10 @@ function displayItems(places) {
         const desc = document.createElement('p');
         desc.innerText = place.description;
         card.appendChild(desc);
+
+        const button = document.createElement('button');
+        button.innerText = 'Learn More';
+        card.appendChild(button);
 
         container.appendChild(card);
     });
